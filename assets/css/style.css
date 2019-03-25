@@ -1,0 +1,163 @@
+
+
+
+
+
+/* Заголовок КиноМонстр */
+.header a, a:hover { 
+	color: #f0ad4e;
+	text-decoration: none; //чтобы не было подчёркиваний ссылок.
+}
+/* Для заголовка 1-го уровня */
+.header h1 {   
+	letter-spacing: 15px; //межбуквенный интервал
+	font-size: 300%; //размер шрифта
+}
+/* Для параграфа */
+.header p {
+	color: white !important; //css-свойство указывает браузеру, что это самый приоритетный стиль и нужно игнорировать объявленные ранее стиль у данного элемента
+	font-size: 90%;
+	letter-spacing: 3px;
+}
+/* Для меню */
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #346270;
+}
+/* Цвет ссылки в меню */
+.nav-pills>li>a {
+	color: #fff; 
+}
+/* Цвет наведения на ссылку в меню */
+.nav-pills>li>a:hover {
+	background-color: #346270; 
+}
+/* Отступ рамки */
+.navbar-inverse {
+    padding: 1%;
+    border-radius: 0;  
+}
+
+/* Для малых разрешений */
+@media (max-width: 767px) {
+	/* Настраиваем меню */
+	.nav-pills>li {
+		float: none;
+	}
+	.nav-pills {
+		text-align: center;
+	}
+	/* Заголовок и параграф */
+	.header h1 {
+		letter-spacing: 5px;
+		font-size: 280%;
+
+	}
+	.header {
+		text-align: center;
+	}
+}
+
+.clear {
+	clear: both; /* текст без обтекания */
+	height: 63px;
+}
+
+.wrapper {
+	min-height: 100%; /* контент на 100% */
+}
+
+html, body {
+	height: 100%;
+}
+
+.films_block {
+	text-align: center; /* текст по центру */
+}
+
+.films_block img {
+	margin-bottom: 5%;  /* отступ после картинки */
+	border-radius: 5px; /* размер бордера */
+	border: solid 5px #dad7d5; /* параметры бордера */
+	width: 100%; /* ширина */
+}
+
+.film_label {
+	padding: 2%;
+	margin-bottom: 4%;
+}
+
+.margin-8 {
+	margin-top: 8%; /* отступ после блока */
+}
+
+.panel {
+	border: none; /*убираем бордер */
+}
+
+.panel-body {
+	background-color: #f9f9f9; /* цвет панели внутри */
+}
+
+.panel-info>.panel-heading {
+	background-color: #f0ad4e; /* Цвет панели */
+	color: #fff;
+	border-color: transparent;
+}
+
+.sidebar-header {
+	font-size: 120%;
+	letter-spacing: 2px; 
+}
+
+.input-lg {
+	font-size: 14px; 
+}
+
+.form-control {
+	border-radius: 0px;
+}
+
+.list-group-item-warning {
+	color: #8a6d3b;
+	background-color: #f9f9f9;
+}
+
+.badge {
+	background-color: #000000;
+}
+
+.info-block {
+	font-size: 120%;
+}
+
+.info-block .badge {
+	font-size: 80%;
+}
+
+.info-block span {
+	margin-right: 3%;
+}
+
+.table tbody>tr>td.vert-align {
+	vertical-align: middle;
+}
+
+textarea.form-control {
+	height: 200px;
+}
+
+footer {
+	color: #666;
+	background-color: #222;
+	padding: 17px 0 18px 0;
+	border-top: 1px solid #000;
+}
+
+footer a {
+	color: #999;
+}
+
+footer a:hover {
+	color: #efefef;
+}
